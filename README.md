@@ -1,3 +1,22 @@
+Wifi Hotspot for Linux
+
+$-git clone https://github.com/shiivamgupta/create_ap
+$-cd create_ap
+$-make install
+
+sudo apt-get install hostpad or pacman -S create_ap
+
+create_ap wlps10 wlp1s0 MyAccessPoint MyPassPhrase
+
+it will create 5Mhz Wifi, If you don`t support that. you can connect your mobile hotspot to pc and then run the command.
+It will create 2.4Mhz wifi hotspot.
+    
+Files Credit Goes to https://github.com/oblique/
+Many Thanks to him!
+
+
+
+---------------------------------------------------------------------------------------------------
 ## Features
 * Create an AP (Access Point) at any channel.
 * Choose one of the following encryptions: WPA, WPA2, WPA/WPA2, Open (no encryption).
@@ -28,7 +47,7 @@
 
 ## Installation
 ### Generic
-    git clone https://github.com/oblique/create_ap
+    git clone https://github.com/shiivamgupta/create_ap
     cd create_ap
     make install
 
